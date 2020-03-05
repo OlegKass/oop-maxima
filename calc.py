@@ -19,7 +19,7 @@ def main():
 
 
     x, y = int(input("Enter number ")), int(input("Enter number "))
-    print(dict_of_op[operation].eval(x,y))
+    print(evaluator.eval(x,y))
 
 if __name__ == '__main__':
     main()
